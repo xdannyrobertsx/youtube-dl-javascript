@@ -9,7 +9,7 @@
   "author": "danny",
   "license": "ISC",
   "dependencies": {
-    "prompt": "^1.2.1",
+    "inquirer": "^8.2.0",
     "youtube-dl-exec": "^2.0.2"
   },
   "type": "module"
