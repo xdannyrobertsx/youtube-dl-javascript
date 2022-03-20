@@ -12,8 +12,9 @@ function prompter() {
       name: "channel",
       message: "What Youtube Channel Would You Like To Scrape?",
       validate(value) {
+        const ytpass = value.match(/youtube.com/);
         const pass = value.match(/(\/channel\/|c\/(.*))/);
-        if (pass) {
+        if (ytpass && pass) {
           return true;
         }
 
