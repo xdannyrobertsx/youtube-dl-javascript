@@ -48,8 +48,8 @@ function prompter() {
     youtubedl(channelID, {
       playlistEnd: vidNumber,
       extractAudio: true,
-      audioFormat: "mp3",
-      output: "./%(channel)s/%(title)s.mp3",
+      audioFormat: "wav",
+      output: "./%(channel)s/%(title)s.wav",
       noPart: true,
     });
   });
