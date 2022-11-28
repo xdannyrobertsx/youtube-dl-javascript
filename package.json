@@ -1,16 +1,16 @@
 {
-  "name": "youtube-dl-javascript",
-  "version": "1.0.0",
-  "description": "youtube-dl-javascript",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "danny",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.0",
-    "youtube-dl-exec": "^2.0.2"
-  },
-  "type": "module"
+	"name": "youtube-dl-javascript",
+	"version": "1.0.0",
+	"description": "youtube-dl-javascript",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "danny",
+	"license": "ISC",
+	"dependencies": {
+		"inquirer": "^8.2.0",
+		"yt-dlp-exec": "^1.0.2"
+	},
+	"type": "module"
 }
